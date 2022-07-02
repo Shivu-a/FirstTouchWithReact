@@ -3,9 +3,7 @@ import "./cubo.css";
 function Cubo() {
   return (
     <div className="cubo">
-      <div className="cubo">
-        <div className="cubo interior"></div>
-      </div>
+      <h1>Seba</h1>
     </div>
   );
 }
