@@ -1,0 +1,20 @@
+.cubo {
+  padding: 4rem;
+  border: 2px solid gold;
+  transform: rotate(45deg);
+  animation: rotar 15s infinite linear;
+}
+
+.interior {
+  animation: rotar 10s infinite linear;
+}
+
+@keyframes rotar {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
